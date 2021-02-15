@@ -33,3 +33,6 @@ Description: Create a report of products having lowest rating.
 Command: python3 flipkart_scraper_3.py
 Enter a name of product:
 Enter number of pages wants to scrape:
+
+
+## sample_output.xlsx is a output file.
