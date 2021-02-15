@@ -1,0 +1,10 @@
+1] While scraping Flipkart website, faced problem when structure of arrangement of product changes on webpages. Solved it by handling both structure of arrangement. There are 4 products in a row or 1 product in a row.
+
+
+try:
+   results = soup.find_all('div', {'class':'_2pi5LC col-12-12'})
+   if len(results) == 0:
+      results = soup.find_all('div', {'class':'_1AtVbE col-12-12'})
+except AttributeError:
+   pass
+   
