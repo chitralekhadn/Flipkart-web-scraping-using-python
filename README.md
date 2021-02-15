@@ -35,4 +35,4 @@ Enter a name of product:
 Enter number of pages wants to scrape:
 
 
-## sample_output.xlsx is a output file.
+sample_output.xlsx is a output file.
